@@ -6,7 +6,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "拉拉人老黄历",
+    "navigationBarTitleText": "宅历",
     "navigationBarTextStyle":"black"
   },
   "debug":true
