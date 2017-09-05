@@ -77,11 +77,11 @@ justify-content: center;
 }
 
 .itemTitle {
-font-size: 20px;
+font-size: 80%;
   color: #000;
 }
 .itemContent{
-  font-size: 15px;
+  font-size: 60%;
   color: #7a7e7c;
 }
 
