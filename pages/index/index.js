@@ -27,7 +27,7 @@ Page({
     }, {
       name: "去面基",
       good: "成功TradePY♂",
-      bad: "噢，你长得真丑",
+      bad: "话不投机三句多",
       weekend: true
     }, {
       name: "肥宅锻炼身体",
@@ -101,11 +101,16 @@ Page({
       good: "感受逸国风范",
       bad: "被关进小黑屋和比利嘿嘿嘿♂",
       weekend: true
+    }, {
+      name: "绝地求生",
+      good: "大吉大利晚上吃鸡",
+      bad: "滚去学习",
+      weekend: true
     }];
 
     var directions = ["北方", "东北方", "东方", "东南方", "南方", "西南方", "西方", "西北方"];
 
-    var drinks = ["水", "Nico的妹汁", "果皇的妹汁", "KKE的妹汁", "南小鸟的妹汁", "喵凛的妹汁", "海爷的妹汁", "花阳的妹汁", "小真姬的妹汁", "希魔王的妹汁", "绿茶", "咖啡", "奶茶", "可乐", "鲜奶", "豆奶", "果汁", "果味汽水", "苏打水", "运动饮料", "酸奶", "酒"];
+    var drinks = ["Nico的妹汁", "果皇的妹汁", "KKE的妹汁", "南小鸟的妹汁", "喵凛的妹汁", "海爷的妹汁", "花阳的妹汁", "小真姬的妹汁", "希魔王的妹汁", "Dr Pepper", "Key咖啡", "武藏野牛奶", "長森牛乳","口嚼酒"];
 
     var _activities = this.filter(activities);
     var today = new Date();
@@ -216,5 +221,12 @@ Page({
     this.setData({
       today: this.getTotalObject()
     })
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '宅历',
+      desc: '来看看你今天的宅运吧',
+      path: '/pages/index/index'
+    }
   }
-  })
+})
