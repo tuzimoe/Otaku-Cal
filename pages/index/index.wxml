@@ -28,7 +28,7 @@
       </view>
     </view>
   </view>
-  <text class="tag ">座位朝向：面向{{today.direction}}单抽，出UR可能性最高。</text>
+  <text class="tag ">座位朝向：面向{{today.direction}}单抽，出货可能性最高。</text>
   <text class="tag ">今日宜饮：{{today.drinks}}</text>
   <text class="tag ">扩列指数：{{today.stars}}</text>
 </view>
