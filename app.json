@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/bangumi/bangumi"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -9,5 +10,27 @@
     "navigationBarTitleText": "宅历",
     "navigationBarTextStyle":"black"
   },
-  "debug":true
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/asset/home.png",
+        "selectedIconPath": "/asset/shome.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/bangumi/bangumi",
+        "iconPath": "/asset/bangumi.png",
+        "selectedIconPath": "/asset/sbangumi.png",
+        "text": "追剧"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "/asset/me.png",
+        "selectedIconPath":"/asset/sme.png", 
+        "text": "我"
+      }
+    ]
+  },
+  "debug" :true
 }
