@@ -1,4 +1,3 @@
-
 <!--index.wxml-->
 <view class="container">
   <text class="date">{{today.today}}</text>

@@ -25,7 +25,7 @@
         "text": "追剧"
       },
       {
-        "pagePath": "pages/me/me",
+        "pagePath": "pages/logs/logs",
         "iconPath": "/asset/me.png",
         "selectedIconPath":"/asset/sme.png", 
         "text": "我"
