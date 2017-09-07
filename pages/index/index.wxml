@@ -17,7 +17,7 @@
   </view>
   <view class="buyiContainer ">
     <view class="buyiTextContainer ">
-      <text class="buyi ">不宜</text>
+      <text class="buyi">忌</text>
     </view>
     <view class="buyiItemContainer ">
       <view wx:for="{{today.badList}}" wx:for-index="name">
