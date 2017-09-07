@@ -1,8 +1,17 @@
-.log-list {
+/**index.wxss**/
+.userinfo {
   display: flex;
   flex-direction: column;
-  padding: 40rpx;
+  align-items: center;
 }
-.log-item {
-  margin: 10rpx;
+
+.userinfo-avatar {
+  width: 300rpx;
+  height: 300rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #FFF;
 }
